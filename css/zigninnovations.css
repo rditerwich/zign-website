@@ -353,7 +353,7 @@ h1:first-of-type {
 
   #section1 .box1 {
     float: left;
-
+	position: relative;
   }
 
   #section1 .box2 {
@@ -531,3 +531,12 @@ h1:first-of-type {
 
 
 }
+
+
+
+.linii {
+	position:absolute;
+}
+
+
+
