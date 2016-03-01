@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-  font-family: GothamXlight;
+  font-family: GothamXlight, Helvetica, sans-serif;
 }
 
 .section{
@@ -28,6 +28,7 @@ body {
   width: 480px;
   height: 130px;
   background-repeat: no-repeat;
+  
 }
 
 #section0 {
@@ -167,9 +168,8 @@ body {
   margin-right: auto;
   right: 0;
   left: 0;
-  padding-left: 190px;
-  width: 700px;
-  height: 600px;
+/*  width: 700px;
+  height: 600px; */
 
 }
 
@@ -178,8 +178,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url('../img/svg/linii-team-01.svg');
-  width: 280px;
-  height: 200px;
+  width: 620;
+  height: 446px;
   margin-right: 20px;
   margin-top: 15px;
   float: left;
@@ -190,10 +190,11 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url('../img/svg/linii-team-02.svg');
-  width: 310px;
-  height: 230px;
+  width: 693px;
+  height: 431px;
   margin-top: 20px;
-  float: left;
+  margin-bottom:50px;
+  float: right;
 
 }
 
@@ -202,8 +203,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url('../img/svg/linii-team-03.svg');
-  width: 280px;
-  height: 200px;
+  width: 621px;
+  height: 385px;
   margin-right: 20px;
   float: left;
 
@@ -214,9 +215,9 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url('../img/svg/linii-team-04.svg');
-  width: 280px;
-  height: 200px;
-  float: left;
+  width: 621px;
+  height: 411px;
+  float: right;
 }
 
 #section4 {
@@ -256,6 +257,10 @@ h1 {
   line-height: 1.4;
   padding: 5px 15px;
   font-size: 50px;
+  margin:0 0 2px 0;
+}
+h1:first-of-type {
+	margin-top:20px;
 }
 
 .fp-controlArrow.fp-next {
@@ -295,15 +300,16 @@ h1 {
   position: absolute;
   top: 20px;
   z-index: 100;
-  width: 501px;
+  width: 560px;
   right: 0;
   background-color: rgba(119, 224,221, 0.7);
+  opacity: .7;
   padding: 30px;
   text-align: right;
   transition: width 600ms linear, background 600ms linear;
 }
 #navigation ul {
-  display: inline-block;;
+  display: inline-block;
 }
 
 #navigation li {
