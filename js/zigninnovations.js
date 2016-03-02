@@ -29,9 +29,3 @@ $(document).ready(function() {
       $("#navigation").removeClass("nav-scrolled");
     }
   });
-
-  // $("#navigation").scroll(function (event) {
-  //     var scroll = $(window).scrollTop();
-  //     console.log(scroll);
-  //     // Do something
-  // });
