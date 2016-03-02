@@ -5,7 +5,7 @@ $(document).ready(function() {
     menu: "navigation",
     responsiveWidth: 900,
     scrollBar:true,
-    // autoScrolling: false,
+     autoScrolling: false,
 		fitToSection: false,
     normalScrollElements: '#section2, #section1',
 
