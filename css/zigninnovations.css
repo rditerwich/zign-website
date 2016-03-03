@@ -873,3 +873,55 @@ h1 {
     width: 100%;
     height: 500px;
 }
+#expertise1, #expertise2, #expertise3, #expertise4, #expertise5, #expertise6, #expertise7, #expertise8, #expertise9 {
+
+}
+
+#expertise1{
+	background:url('../img/expertise/expertise-01.png') 15px 8px no-repeat;
+}
+#expertise2{
+	background:url('../img/expertise/expertise-02.png') 15px 8px no-repeat;
+}
+#expertise3{
+	background:url('../img/expertise/expertise-03.png') 15px 8px no-repeat;
+}
+#expertise4{
+	background:url('../img/expertise/expertise-04.png') 15px 8px no-repeat;
+}
+#expertise5{
+	background:url('../img/expertise/expertise-05.png') 15px 8px no-repeat;
+}
+#expertise6{
+	background:url('../img/expertise/expertise-06.png') 15px 8px no-repeat;
+}
+#expertise7{
+	background:url('../img/expertise/expertise-07.png') 15px 8px no-repeat;
+}
+#expertise8{
+	background:url('../img/expertise/expertise-08.png') 15px 8px no-repeat;
+}
+#expertise9{
+	background:url('../img/expertise/expertise-09.png') 15px 8px no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
