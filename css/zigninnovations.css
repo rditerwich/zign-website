@@ -34,9 +34,9 @@ body.en .nl {
 
 .logo {
   background-image: url('../img/svg/logo.svg');
-    width: 300px;
-    height: 80px;
-
+  width: 300px;
+  height: 80px;
+  margin-top: 200px;
   background-repeat: no-repeat;
 
 }
@@ -578,6 +578,7 @@ h1 {
 
 .about {
 	max-width:360px;
+  margin-top:56px;
 }
 .about p, .about h3 {
 	color:#fff !important;
@@ -621,6 +622,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 1px;
   color: #254c62;
+  font-size: 16px;
   font-weight: bold;
 }
 .navbar-default .nav li a:hover,
@@ -669,20 +671,22 @@ h1 {
 
 #navbarframe {
   margin-top: 0;
-  height: 60px;
+  height: 90px;
   width: 100%;
   right: 0;
   position: fixed;
   background-color: rgba(147, 227, 214, 0.8);
+  transition: width 1s, margin-top 1s;
+  z-index: 2;
 }
 
 #navbarframe.visible {
-  margin-top: 20px;
-  height: 60px;
+  margin-top: 40px;
   width: 70%;
   right: 0;
   position: fixed;
   background-color: rgba(147, 227, 214, 0.8);
+  transition: width 1s, margin-top 1s;
 }
 
 @media (max-width: 767px) {
@@ -696,16 +700,49 @@ h1 {
 }
 
 .navbar-brand .logo {
-  display: none;
+  opacity: 0;
   margin: 0;
   width: 110px;
   height: 30px;
+  transition: opacity 1.5s, margin-left 1s;
+  margin-left: 100%;
 }
 
 .navbar-brand .logo.visible {
-  display: block;
+  opacity: 1;
+  margin-left: 0;
+    transition: opacity 1.5s, margin-left 1s;
+}
+
+.navbar .container {
+  width: 100%;
+  padding: 35px 5%;
+  transition: all 0.5s;
+
+}
+
+.navbar.sticky .container {
+  width: 100%;
+  padding: 0px 5%;
+  transition: all 0.8s;
+
+}
+
+.navbar {
+  transition: all 0.8s;
+
 }
 
 .navbar.sticky {
-  padding-top: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  transition: all 1s;
+}
+
+.member4 .name {
+	right:0;
+}
+
+.member4 .description {
+	right:0;
 }
