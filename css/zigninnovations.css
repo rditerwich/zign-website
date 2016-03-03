@@ -136,9 +136,13 @@ body.en .nl {
   color: #1d5069;
 }
 
+#section4 .box {
+  height: 200px;
+}
+
 #section4 .box img {
   display: block;
-  width: 240px;
+  width: 280px;
 }
 
 #section5 {
