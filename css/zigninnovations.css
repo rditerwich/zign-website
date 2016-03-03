@@ -90,7 +90,9 @@ body.en .nl {
   vertical-align: top;
     position:relative;
 }
-
+#section1 .container {
+    position:relative;
+}
 #section1 .fp-tableCell {
   vertical-align: top;
 }
@@ -797,5 +799,5 @@ h1 {
 	height:624px;
 	position:absolute;
 	right:-100px;
-    top: 56%;
+    top: 57%;
 }
