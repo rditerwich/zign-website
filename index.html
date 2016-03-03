@@ -3,14 +3,16 @@
 
     <title>Zign Innovations</title>
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap0.min.css" />
     <link rel="stylesheet" type="text/css" href="css/zigninnovations.css" />
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-    <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.fullpage.min.js"></script> -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/zigninnovations.js"></script>
 	<script type="text/javascript" src="js/svg.min.js"></script>
@@ -18,17 +20,55 @@
   </head>
 
   <body class="en">
+    <div id="navbarframe" class="visible"></div>
 
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <div class="logo"></div>
+                </a>
+
+             <!-- <li><a class="hvr-pop" onclick="javascript:document.body.className = 'nl'">nl</a> | <a class="hvr-pop" onclick="javascript:document.body.className = 'en'">en</a></li> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#start" data-localize="start">start</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about" data-localize="about_us">about us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#expertise" data-localize="expertise">expertise</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects" data-localize="reference_projects">reference projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact" data-localize="contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
     <div id="fullpage">
+      <div id="start"></div>
     	<div class="section" id="section0">
-        <ul id="navigation">
-          <li><a class="hvr-pop" onclick="javascript:document.body.className = 'nl'">nl</a> | <a class="hvr-pop" onclick="javascript:document.body.className = 'en'">en</a></li>
-          <li data-menuanchor="contact"><a class="hvr-pop" href="#contact">contact</a></li>
-          <li data-menuanchor="projects"><a class="hvr-pop"  href="#projects">reference projects</a></li>
-          <li data-menuanchor="expertise"><a class="hvr-pop"  href="#expertise">expertise</a></li>
-          <li data-menuanchor="about_us"><a class="hvr-pop"  href="#about_us">about us</a></li>
-          <li data-menuanchor="start"><a class="hvr-pop" href="#start">start</a></li>
-        </ul>
 
     		<div class="logo"></div>
         <h1 class="en">Innovative Electronics Development</h1>
@@ -39,6 +79,7 @@
           </div>
         </div>
     	</div>
+      <div id="about"></div>
       <div class="section snapnot" id="section1">
 		  <div id="bgSvg"></div>
         <div class="container">
@@ -97,7 +138,6 @@
         </div>
       </div>
 
-
       <div class="section" id="section3">
         <div class="container">
   			<div class="about">
@@ -105,7 +145,7 @@
             <h3 class="nl">Over ons</h3>
             <p class="en">We are passionate about technology. We think we can do things better. It's fun to do the impossible.
             We are dedicated to add value for clients. We strive for long-term relationships and will go the extra mile.</p>
-            <p class="en">We hebben passie voor technologie. We denken dat we dingen beter kunnen dan anderen. It's fun to do the impossible.
+            <p class="nl">We hebben passie voor technologie. We denken dat we dingen beter kunnen dan anderen. It's fun to do the impossible.
             We zijn toegeweid om waarde voor klanten te creëren. We streven naar een lange-termijn samenwerking, waarbij we net dat stapje extra nemen.</p>
   			</div>
           <div class="member1">
@@ -129,6 +169,8 @@
           </div>
         </div>
       </div>
+
+      <div id="expertise"></div>
       <div class="section snapnot" id="section4">
         <div class="container">
           <h3>Expertise</h3>
@@ -186,6 +228,8 @@
               </div>
         </div>
       </div>
+
+      <div id="projects"></div>
       <div class="section snapnot" id="section5">
         <div class="projectBar">
 
@@ -208,7 +252,7 @@
         </div>
 
       </div>
-
+  <div id="contact"></div>
       <div class="section snapnot" id="section10">
         <div class="intro">
           <p>contact</p>
@@ -216,18 +260,6 @@
 		<div class="legal">&copy; Copyright Zign Innovations 2016. All rights reserved.</div>
       </div>
     </div>
-    	<!-- <div class="section" id="section1">
-    	    <div class="slide" id="slide1">
-    			<div class="intro">
-    				<h1>Ideal for small screens</h1>
-    			</div>
-    		</div>
-
-    	    <div class="slide" id="slide2">
-    			<h1>This example uses responsiveWidth: 900</h1>
-    		</div>
-
-    	</div> -->
 
 
   </body>
