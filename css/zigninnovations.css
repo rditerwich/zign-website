@@ -561,3 +561,10 @@ h1:first-of-type {
 .about p, .about h3 {
 	color:#fff !important;
 }
+.intro {
+	background-image:url('../img/svg/linii-contact.svg');
+	background-repeat: no-repeat;
+	height:440px;
+	width:300px;
+	margin:0 auto;
+}
