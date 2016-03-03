@@ -5,7 +5,6 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st1{fill:#FFFFFF;}
-	.st2{fill:#8C979D;}
 </style>
 <polyline class="st0" points="216,384.5 307.2,384.5 457.1,215.3 "/>
 <polyline class="st0" points="216,375.5 307.2,375.5 457.1,206.3 "/>
@@ -19,10 +18,5 @@
 <polyline class="st0" points="216,303.5 307.2,303.5 457.1,134.3 "/>
 <polyline class="st0" points="216,294.5 307.2,294.5 457.1,125.3 "/>
 <polyline class="st0" points="216,285.5 307.2,285.5 457.1,116.3 "/>
-<circle class="st1" cx="458.2" cy="162.9" r="162.7"/>
 <rect y="284" class="st1" width="216" height="101"/>
-<g>
-	<polygon class="st2" points="474,162 460,162 460,147 458,147 458,162 443,162 443,164 458,164 458,179 460,179 460,164 474,164 	
-		"/>
-</g>
 </svg>
