@@ -66,6 +66,17 @@ $(function() {
 
 
 $( document ).ready(function() {
+
+
+  console.log(navigator.language);
+
+  if("nl".indexOf(navigator.language))
+  {
+    document.body.className = 'nl';
+  } else {
+    document.body.className = 'en';
+
+  }
   // Highlight the top nav as scrolling occurs
   $('body').scrollspy({
       target: '.navbar-fixed-top'
