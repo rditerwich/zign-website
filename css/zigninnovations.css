@@ -331,7 +331,7 @@ h1:first-of-type {
 @media (min-width: 769px) {
   .container {
     width: 700px;
-    padding-top: 140px;
+   
   }
 
   #section1 .box2 {
@@ -423,7 +423,7 @@ h1:first-of-type {
   }
 
   #section3 .container {
-    margin-top: -230px;
+    
   }
 
   #section3 .member1 {
@@ -555,5 +555,16 @@ h1:first-of-type {
 	position:absolute;
 }
 
-
-
+.about {
+	max-width:360px;
+}
+.about p, .about h3 {
+	color:#fff !important;
+}
+.intro {
+	background-image:url('../img/svg/linii-contact.svg');
+	background-repeat: no-repeat;
+	height:440px;
+	width:300px;
+	margin:0 auto;
+}
