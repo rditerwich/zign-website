@@ -17,6 +17,14 @@ body {
   font-family: GothamXlight, Helvetica, sans-serif;
 }
 
+body.nl .en {
+  display: none
+}
+
+body.en .nl {
+  display: none
+}
+
 .section{
   padding: 0;
   background-repeat: no-repeat;
