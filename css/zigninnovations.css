@@ -450,7 +450,7 @@ h1 {
     background-image: url('../img/svg/linii-team-01.svg');
     width: 400px;
     height: 290px;
-    float: right;
+    float: left;
     margin-right: 30px;
     margin-bottom: 30px;
 
@@ -473,11 +473,11 @@ h1 {
 
   }
   #section3 .member4 {
-    background-image: url('../img/svg/linii-team-04.svg');
-    width: 405px;
-    height: 270px;
-    float: right;
-    margin-right: 45px;
+	  background: url('../img/svg/linii-team-04.svg') 20px 10px no-repeat;
+	  width: 510px;
+	  height: 270px;
+	  float: right;
+	  margin-right: 45px;
 
   }
 
@@ -623,6 +623,15 @@ h1 {
   color: #254c62;
   font-weight: bold;
 }
+<<<<<<< HEAD
+.member4 .name {
+	right: 10px;
+	top: 85px;
+}
+.member4 .description {
+	right: 20px;
+	top: 115px;
+=======
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   color: white;
@@ -633,6 +642,7 @@ h1 {
   color: white;
 
   background-color: transparent;
+>>>>>>> origin/master
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -702,6 +712,8 @@ h1 {
   height: 30px;
 }
 
+<<<<<<< HEAD
+=======
 .navbar-brand .logo.visible {
   display: block;
 }
@@ -709,3 +721,109 @@ h1 {
 .navbar.sticky {
   padding-top: 5px;
 }
+>>>>>>> origin/master
+
+#section1 .container {
+	background:url('../img/svg/linii-04.svg') 200px 200px no-repeat;
+	background-size: 1000px;
+}
+
+#bgSvg {
+	background:url('../img/svg/linii-04.svg') top left no-repeat;
+	width:975px;
+	height:1052px;
+	position:absolute;
+	left:30%;
+	top:70%;
+}
+
+#section10 .intro p {
+	font-size:24px;
+	color:#fff !important;
+	width: 150px;
+	padding-top:85px;
+	padding-left: 65px;
+}
+
+.legal {
+	float:right;
+	margin-right:20px;
+	margin-bottom:30px;
+	
+.member1, .member2, .member4 {
+		position:relative;
+
+}
+.member1 img {
+	position:absolute;
+	top:150px;
+	right:0;
+}
+.member1 .name {
+	top:20px;
+	left:20px;}
+
+	.member1 .description {
+		top:50px;
+		left:15px;
+
+
+.member2 .name {
+			top:0;
+			right:20px; 
+}
+.member2 .description {
+				top:30px;
+				right:56px; 
+}
+				
+.member4 .name {
+	right: 10px;
+	top: 85px;
+}
+.member4 .description {
+	right: 20px;
+	top: 115px;}
+	
+	.name {
+		font-size:24px;}
+
+.description {}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
