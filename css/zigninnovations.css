@@ -233,7 +233,7 @@ h1 {
 .projectBar {
   height: 120px;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 25px;
   background-color: #6beafd;
 }
 
@@ -766,17 +766,17 @@ h1 {
 }
 .member2 .name {
 	top:0;
-	right:20px; 
+	right:20px;
 }
 .member2 .description {
 	top:30px;
-	right:56px; 
+	right:56px;
 }
 .name {
 	font-size:24px;
 }
 .description {
-	
+
 }
 .member4 .name {
 	right: 10px;
@@ -798,6 +798,35 @@ h1 {
 	width:975px;
 	height:624px;
 	position:absolute;
-	right:-100px;
-    top: 57%;
+	right: 0;
+  background-position: 100px top;
+  top: 57%;
+}
+
+#section5 >.container {
+  width: 100%;
+}
+
+#section5 {
+  padding: 0;
+}
+
+
+.carousel-control.right span, .carousel-control.left span {
+  display: none;
+}
+
+.carousel-control.right {
+  background-image: url('../img/svg/arrow-right.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+
+.carousel-control.left {
+  background-image: url('../img/svg/arrow-left.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
 }

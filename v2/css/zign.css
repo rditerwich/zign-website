@@ -679,6 +679,14 @@ body {
     height: 500px;
 }
 
+#section5 .container {
+  width: 100%;
+}
+
+#section5 {
+  padding: 0;
+}
+
 .carousel-control.right span, .carousel-control.left span {
   display: none;
 }
