@@ -443,7 +443,7 @@ h1 {
     background-image: url('../img/svg/linii-team-01.svg');
     width: 400px;
     height: 290px;
-    float: right;
+    float: left;
     margin-right: 30px;
     margin-bottom: 30px;
 
@@ -466,11 +466,11 @@ h1 {
 
   }
   #section3 .member4 {
-    background-image: url('../img/svg/linii-team-04.svg');
-    width: 405px;
-    height: 270px;
-    float: right;
-    margin-right: 45px;
+	  background: url('../img/svg/linii-team-04.svg') 20px 10px no-repeat;
+	  width: 510px;
+	  height: 270px;
+	  float: right;
+	  margin-right: 45px;
 
   }
 
@@ -636,11 +636,12 @@ h1 {
 	right:56px; 
 }
 .member4 .name {
-	right:0;
-	
+	right: 10px;
+	top: 85px;
 }
 .member4 .description {
-	right:0;
+	right: 20px;
+	top: 115px;
 }
 .name {
 	font-size:24px;
@@ -650,20 +651,6 @@ h1 {
 }
 
 
-
-
-
-
-
->>>>>>> External Changes
-=======
-
-
-
-
-
-
->>>>>>> External Changes
 
 
 
