@@ -350,6 +350,22 @@ h1 {
 
     }
 
+    .member1 img {
+    	position:relative !important;
+    	top: 0 !important;
+    	right:0;/
+    }
+
+    .member1, .member2, .member3 {
+      margin: 30px auto;
+    }
+
+   .description, .name {
+        background-color: white;
+        padding: 5px 10px !important;
+    }
+
+
 }
 
 
