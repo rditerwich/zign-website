@@ -823,8 +823,7 @@ h1 {
 }
 .legal {
 	float:right;
-	margin-right:20px;
-	margin-bottom:30px;
+	margin:10px 20px 30px 0;
 }
 
 #bgSvg {
@@ -913,12 +912,25 @@ h1 {
 	font-size:16px;
 	font-weight:700;
 	color:#254c62;
+	margin-left:30px;
 }
 
+.language a {
+	text-decoration:none;
+}
+#section10 .intro p.contactDetails {
+	padding: 0;
+	width: 200px;
+	font-size: 18px;
+	position: absolute;
+	left: 250px;
+	top:56px;
+	color:#333 !important;
+}
 
-
-
-
+#section10 .intro {
+	position:relative;
+}
 
 
 
