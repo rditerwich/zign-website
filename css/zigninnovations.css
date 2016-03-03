@@ -137,12 +137,12 @@ body.en .nl {
 }
 
 #section4 .box {
-  height: 200px;
+  height: 300px;
 }
 
 #section4 .box img {
   display: block;
-  width: 280px;
+  width: 100%;
 }
 
 #section5 {
@@ -336,7 +336,7 @@ h1 {
 @media (min-width: 769px) {
   .container {
     width: 700px;
-   
+
   }
 
   #section1 .box2 {
@@ -428,7 +428,7 @@ h1 {
   }
 
   #section3 .container {
-    
+
   }
 
   #section3 .member1 {
