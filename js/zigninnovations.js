@@ -18,7 +18,7 @@ $(document).ready(function() {
 	
 	
 	////////////////////////////////////
-  
+  /*
   	var box1poz = $('.box1 .inverse').outerWidth()
   	$('#aboutTop').css({
   		left: box1poz + 18 + "px"
@@ -39,7 +39,7 @@ $(document).ready(function() {
 	var linie04 = liniiBox1.line(0,132, box2position.left - box1position.left - box1poz + 30, box2position.top - box1position.top + 180 ).stroke({ color: '#fff' , width: 1 })
 	var linie05 = liniiBox1.line(0,142, box2position.left - box1position.left - box1poz + 40, box2position.top - box1position.top + 190 ).stroke({ color: '#fff' , width: 1 })
 	var linie06 = liniiBox1.polyline('1,0 1,152.7 253.9,299.2').fill('none').stroke({ color: '#fff' , width: 1 })
-	
+	*/
 });
 
   $(window).scroll(function() {

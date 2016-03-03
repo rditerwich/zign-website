@@ -83,6 +83,10 @@ body.en .nl {
   vertical-align: top;
 }
 
+#section1 .container {
+	background:url('../img/svg/linii-04.svg') 200px 200px no-repeat;
+	background-size: 1000px;
+}
 
 #section1 p {
   width: 285px;
