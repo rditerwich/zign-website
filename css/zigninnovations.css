@@ -570,6 +570,7 @@ h1 {
 
 .about {
 	max-width:360px;
+	margin-top:56px;
 }
 .about p, .about h3 {
 	color:#fff !important;
@@ -605,12 +606,41 @@ h1 {
 	margin-right:20px;
 	margin-bottom:30px;
 }
-
-
-
-
-
-
+.member1, .member2, .member4 {
+	position:relative;
+}
+.member1 p, .member2 p, .member4 p {
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+.member1 img {
+	position:absolute;
+	top:150px;
+	right:0;
+}
+.member1 .name {
+	top:20px;
+	left:20px;
+}
+.member1 .description {
+	top:50px;
+	left:15px;
+}
+.member2 .name {
+	top:0;
+	right:20px; 
+}
+.member2 .description {
+	top:30px;
+	right:56px; 
+}
+.name {
+	font-size:24px;
+}
+.description {
+	
+}
 
 
 
