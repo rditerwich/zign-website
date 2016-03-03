@@ -88,15 +88,11 @@ body.en .nl {
   background-image: url('../img/bg/bg-02.png');
   /*background-size: auto 100%;*/
   vertical-align: top;
+    position:relative;
 }
 
 #section1 .fp-tableCell {
   vertical-align: top;
-}
-
-#section1 .container {
-	background:url('../img/svg/linii-04.svg') 200px 200px no-repeat;
-	background-size: 1000px;
 }
 
 #section1 p {
@@ -111,6 +107,7 @@ body.en .nl {
 
 #section2 {
   background-image: url('../img/bg/bg-03.png');
+
 }
 
 #section2 .fp-tableCell {
@@ -479,7 +476,7 @@ h1 {
 
   }
   #section3 .member4 {
-	  background: url('../img/svg/linii-team-04.svg') 20px 10px no-repeat;
+	  background: url('../img/svg/linii-team-04.svg') 20px 0 no-repeat;
 	 width: 510px;
 	 height: 270px;
 	 float: right;
@@ -781,15 +778,24 @@ h1 {
 }
 .member4 .name {
 	right: 10px;
-	top: 85px;
+	top: 75px;
 }
 
 .member4 .description {
 	right: 20px;
-	top: 115px;
+	top: 105px;
 }
 .legal {
 	float:right;
 	margin-right:20px;
 	margin-bottom:30px;
+}
+
+#bgSvg {
+	background:url('../img/svg/linii-04.svg') top left no-repeat;
+	width:975px;
+	height:624px;
+	position:absolute;
+	right:-100px;
+    top: 56%;
 }
