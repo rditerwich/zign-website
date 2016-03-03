@@ -722,3 +722,108 @@ h1 {
   padding-top: 5px;
 }
 >>>>>>> origin/master
+
+#section1 .container {
+	background:url('../img/svg/linii-04.svg') 200px 200px no-repeat;
+	background-size: 1000px;
+}
+
+#bgSvg {
+	background:url('../img/svg/linii-04.svg') top left no-repeat;
+	width:975px;
+	height:1052px;
+	position:absolute;
+	left:30%;
+	top:70%;
+}
+
+#section10 .intro p {
+	font-size:24px;
+	color:#fff !important;
+	width: 150px;
+	padding-top:85px;
+	padding-left: 65px;
+}
+
+.legal {
+	float:right;
+	margin-right:20px;
+	margin-bottom:30px;
+	
+.member1, .member2, .member4 {
+		position:relative;
+
+}
+.member1 img {
+	position:absolute;
+	top:150px;
+	right:0;
+}
+.member1 .name {
+	top:20px;
+	left:20px;}
+
+	.member1 .description {
+		top:50px;
+		left:15px;
+
+
+.member2 .name {
+			top:0;
+			right:20px; 
+}
+.member2 .description {
+				top:30px;
+				right:56px; 
+}
+				
+.member4 .name {
+	right: 10px;
+	top: 85px;
+}
+.member4 .description {
+	right: 20px;
+	top: 115px;}
+	
+	.name {
+		font-size:24px;}
+
+.description {}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
