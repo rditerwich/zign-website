@@ -54,12 +54,14 @@ body.en .nl {
   position: absolute;
   left: 0;
   bottom: 0;
-  //border-bottom: 3px solid rgba(121, 227, 253, 1);
 }
 
 #section0 .bottomBar .btn {
+  position: absolute;
   margin: 0 auto;
   margin-top: -20px;
+  right: 0;
+  left: 0;
   width: 50px;
   height: 50px;
   background: rgba(121, 227, 253, 1);
@@ -138,12 +140,12 @@ body.en .nl {
 }
 
 #section4 .box {
-  height: 200px;
+  height: 300px;
 }
 
 #section4 .box img {
   display: block;
-  width: 280px;
+  width: 100%;
 }
 
 #section5 {
@@ -230,7 +232,7 @@ h1 {
   position: absolute;
   top: 20px;
   z-index: 100;
-  width: 560px;
+  width: 660px;
   right: 0;
   background-color: rgba(119, 224,221, 0.7);
   padding: 30px;
@@ -337,7 +339,7 @@ h1 {
 @media (min-width: 769px) {
   .container {
     width: 700px;
-   
+
   }
 
   #section1 .box2 {
@@ -429,7 +431,7 @@ h1 {
   }
 
   #section3 .container {
-    
+
   }
 
   #section3 .member1 {
@@ -574,6 +576,7 @@ h1 {
 	width:300px;
 	margin:0 auto;
 }
+<<<<<<< HEAD
 
 #bgSvg {
 	background:url('../img/svg/linii-04.svg') top left no-repeat;
@@ -583,3 +586,5 @@ h1 {
 	left:30%;
 	top:70%;
 }
+=======
+>>>>>>> origin/master
