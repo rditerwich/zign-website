@@ -764,7 +764,9 @@ h1 {
   transition: all 1s;
 }
 
-
+#section4 .box p {
+  display: none;
+}
 
 #expertise1{
 	background:url('../img/expertise/expertise-01.png') 15px 8px no-repeat;
