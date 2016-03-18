@@ -27,7 +27,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="language"><a class="hvr-pop" onclick="javascript:document.body.className = 'nl'">nl</a> | <a class="hvr-pop" onclick="javascript:document.body.className = 'en'">en</a></div>
+            <div class="language"><a class="hvr-pop nl" onclick="javascript:document.body.className = 'nl'">nl</a> | <a class="hvr-pop en" onclick="javascript:document.body.className = 'en'">en</a></div>
 			<div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -51,7 +51,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#start" data-localize="start">start</a>
+                        <a class="page-scroll" href="#start" data-localize="start">home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about" data-localize="about_us">about us</a>
@@ -59,9 +59,9 @@
                     <li>
                         <a class="page-scroll" href="#expertise" data-localize="expertise">expertise</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#projects" data-localize="reference_projects">reference projects</a>
-                    </li>
+                    <!--<li>-->
+                        <!--<a class="page-scroll" href="#projects" data-localize="reference_projects">reference projects</a>-->
+                    <!--</li>-->
                     <li>
                         <a class="page-scroll" href="#contact" data-localize="contact">contact</a>
                     </li>
@@ -72,7 +72,6 @@
         <!-- /.container-fluid -->
     </nav>
     <div id="fullpage">
-      <div id="start"></div>
     	<div class="section" id="section0">
 
     		<div class="logo"></div>
@@ -85,7 +84,7 @@
         </div>
     	</div>
 
-      <div id="about"></div>
+      <div id="start"></div>
       <div class="section snapnot" id="section1">
    		   <div id="bgSvg"></div>
            <div class="container">
@@ -144,6 +143,7 @@
          </div>
 
 
+      <div id="about"></div>
          <div class="section" id="section3">
            <div class="container">
      			<div class="about">
@@ -202,6 +202,9 @@
                </div>
                <div id="expertise5" class="box col-lg-3 col-md-4 col-sm-6 col-xs-12">
                  <h2>Productie Begeleiding</h2>
+
+               </div>
+               <div id="" class="box col-lg-3 col-md-4 col-sm-6 col-xs-12">
 
                </div>
                <div id="expertise6" class="box col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -337,41 +340,46 @@
            </div>
 
          </div>
-         <div id="contact"></div>
-
-         <div class="section snapnot" id="section10">
+      <div id="contact"></div>
+      <div class="section snapnot" id="section10">
            <div class="intro">
              <div>
                <p>contact</p>
-               <p class="contactDetails">Zign Innovations B.V.<br>Coltbaan 1-3<br>3439 NG Nieuwegein<br>Tel.: +31 (0)85 273 7331</p>
+               <p class="contactDetails">Zign Innovations B.V.<br>Coltbaan 1<br>3439 NG Nieuwegein<br>Tel.: +31 (0)85 273 7331</p>
              </div>
 
             <div class="contact-form">
-                <h3>Contact us</h3>
+                <h3 class="en">Contact us</h3>
+                <h3 class="nl">Neem contact op</h3>
                 <div class="container-fluid">
 
                   <div class="row">
                     <div class="col-xs-12">
                       <form name="contactForm" method="post" action="contact.php">
                         <div class="form-group">
-                          <label for="name">Name</label>
+                          <label class="en" for="name">Name</label>
+                          <label class="nl" for="name">Naam</label>
                           <input type="text" class="form-control" id="name" placeholder="Full Name">
                         </div>
                         <div class="form-group">
-                          <label for="email">Email address</label>
+                          <label class="en" for="email">Email address</label>
+                          <label class="nl" for="email">Email adres</label>
                           <input type="email" class="form-control" id="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                          <label for="phone">Telephone</label>
+                          <label class="en" for="phone">Telephone</label>
+                          <label class="nl" for="phone">Telefoon</label>
                           <input type="tel" class="form-control" id="phone">
                         </div>
 
                         <div class="form-group">
-                          <label for="message">Message:</label>
+                          <label class="en" for="message">Message:</label>
+                          <label class="nl" for="message">Boodschap:</label>
                           <textarea class="form-control" rows="5" id="message"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default en">Submit</button>
+                        <button type="submit" class="btn btn-default nl">Versturen</button>
                       </form>
                     </div>
                   </div>
@@ -382,7 +390,8 @@
            </div>
            <div id="map"></div>
 
-   		<div class="legal">&copy; Copyright Zign Innovations 2016. All rights reserved.</div>
+   		<div class="legal en">&copy; Copyright Zign Innovations 2016. All rights reserved.</div>
+   		<div class="legal nl">&copy; Copyright Zign Innovations 2016. Alle rechten voorbehouden.</div>
          </div>
        </div>
 

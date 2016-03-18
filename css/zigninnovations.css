@@ -182,8 +182,8 @@ body.en .nl {
 	padding-left: 65px;
   float: left;
 }
-h3, p {
-  color: #184d60;
+h3, p, .language a {
+  color: #144251;
 }
 
 h2 {
@@ -943,6 +943,7 @@ h1 {
 
 #section5 {
   padding: 0;
+  display: none;
 }
 
 #section10 {
@@ -990,4 +991,17 @@ h1 {
 
 .language a {
 	text-decoration:none;
+}
+
+body.en .language a.en {
+  color: white;
+}
+
+body.nl .language a.nl {
+  color: white;
+}
+
+.language a {
+  display: inline !important;
+  cursor: hand;
 }
