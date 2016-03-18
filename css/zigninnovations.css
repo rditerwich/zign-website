@@ -743,7 +743,7 @@ h1 {
 
 #navbarframe.visible {
   margin-top: 40px;
-  width: 70%;
+  width: 50%;
   right: 0;
   position: fixed;
   background-color: rgba(147, 227, 214, 0.8);
