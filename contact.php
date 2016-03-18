@@ -20,7 +20,7 @@
         $subject="Contact via ZIGN website";
 
         if($name && $email && $phone && $message) {
-          mail("cristif3@gmail.com", $subject, $message, $from);
+          mail("info@zigninnovations.com,ruud@diterwich.com", $subject, $message, $from);
         }
 
 
