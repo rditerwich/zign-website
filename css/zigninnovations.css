@@ -1005,3 +1005,15 @@ body.nl .language a.nl {
   display: inline !important;
   cursor: hand;
 }
+
+#message-sent {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section10 .intro #message-sent p {
+  font-size: 13px;
+  width: auto;
+  padding: 0;
+}

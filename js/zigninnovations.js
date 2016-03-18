@@ -243,3 +243,25 @@ $( document ).ready(function() {
           icon: image
       });
   }
+
+
+  function sendMessage() {
+
+   var url = "contact.php";
+
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#contactForm").serialize(),
+           success: function(data)
+           {
+             $("#contactForm")[0].reset();
+              $('#message-sent').show();
+              setTimeout(function() {
+                $('#message-sent').hide();
+              }, 4000);
+           }
+         });
+
+   return false;
+  }
