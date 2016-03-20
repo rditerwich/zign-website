@@ -354,10 +354,6 @@
                 <div class="container-fluid">
 
                   <div class="row">
-                    <div id="message-sent" class="col-xs-12">
-                      <p class="en">Your message was sent!</p>
-                      <p class="nl">We will respond asap.</p>
-                    </div>
                     <div class="col-xs-12">
                       <form id="contactForm" name="contactForm" method="post" action="contact.php">
                         <div class="form-group">
@@ -382,6 +378,10 @@
                           <textarea class="form-control" rows="5" id="message" name="message"></textarea>
                         </div>
 
+                        <div id="message-sent" class="col-xs-12">
+                          <p class="en">Your message has been received. We will contact you as soon as possible.</p>
+                          <p class="nl">Uw bericht is ontvangen. We nemen zo snel mogelijk contact met u op.</p>
+                        </div>
                         <button type="button" class="btn btn-default en" onclick="sendMessage()">Submit</button>
                         <button type="button" class="btn btn-default nl" onclick="sendMessage()">Versturen</button>
                       </form>

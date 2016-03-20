@@ -19,8 +19,8 @@
         $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Contact via ZIGN website";
 
-        if($name && $email && $phone && $message) {
-          mail("info@zigninnovations.com,ruud@diterwich.com", $subject, $message, $from);
+        if($email || $phone) {
+          mail("info@zigninnovations.com", $subject, $message, $from);
         }
 
 
